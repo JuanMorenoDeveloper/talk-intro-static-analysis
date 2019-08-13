@@ -1,0 +1,50 @@
+= Introducción a Análisis Estático de Código
+:icons: font
+:twitter-tag: ACCSA
+:conference-tag:
+:talk-tag: Static Analysis JS
+:linkattrs:
+
+include::footer.ad[]
+
+== Contenido
+
+* ¿Qué es el análisis estático de código?
+* Tipos
+* Herramientas
+
+== Análisis estático de código
+
+Consiste en analizar una aplicación sin ejecutarla. Normalmente se analiza solo el código fuente.
+
+El análisis se hace a través de herramientas automáticas que generan un reporte con los resultados.
+
+== Tipos de análisis
+
+* Unit level
+* Technology level
+* System level
+* Mission/Business level
+
+[NOTE.speaker]
+====
+* **Unit level**: Analiza una parte específica de la aplicación o subrutina.
+* **Techonology level**: Análisis más completo de la aplicación, como por ejemplo el framework o las librerías utilizadas, con el objetivo de detectar configuración inválida o prácticas cuestionables.
+* **System level**: Analiza la interacción entre programas.
+* **Mission/Business level**: Analiza componentes de negocio.
+====
+
+== Beneficios
+* Se detectan problemas de configuración o vulnerabilidades en tiempo de compilación.
+* Se aprende como usar correctamente el lenguaje o librería que se esté empleando.
+* Se siguen prácticas de la industria.
+* Hace el código más uniforme y se cometen menos errores.
+
+== Herramientas en JS
+
+
+== Herramientas de static analysis en JS
+
+
+
+include::self.ad[]
