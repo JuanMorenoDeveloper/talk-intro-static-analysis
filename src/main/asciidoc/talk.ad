@@ -21,7 +21,7 @@ El análisis se hace a través de herramientas automáticas que generan un repor
 
 == ¿Para qué sirve?
 
-Permite descubrir problemas en formato, referencias a objetos nulos, configuraciones inválidas, malas práticas, complejidad ciclómatica y muchos otros escenarios.
+Permite descubrir problemas en formato, referencias a objetos nulos, configuraciones inválidas, malas prácticas, complejidad ciclómatica y muchos otros escenarios.
 
 == Tipos de análisis
 
