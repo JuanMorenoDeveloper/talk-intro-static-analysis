@@ -19,6 +19,10 @@ Consiste en analizar una aplicación sin ejecutarla. Normalmente se analiza solo
 
 El análisis se hace a través de herramientas automáticas que generan un reporte con los resultados.
 
+== ¿Para qué sirve?
+
+Permite descubrir problemas en formato, referencias a objetos nulos, configuraciones inválidas, malas práticas, complejidad ciclómatica y muchos otros escenarios.
+
 == Tipos de análisis
 
 * Unit level
@@ -35,16 +39,22 @@ El análisis se hace a través de herramientas automáticas que generan un repor
 ====
 
 == Beneficios
+
 * Se detectan problemas de configuración o vulnerabilidades en tiempo de compilación.
 * Se aprende como usar correctamente el lenguaje o librería que se esté empleando.
 * Se siguen prácticas de la industria.
 * Hace el código más uniforme y se cometen menos errores.
 
-== Herramientas en JS
+== Herramientas de análisis estático en JS
 
+* https://jshint.com/about/[jshint]: Detecta errores e impone la aplicación de buenas prácticas.
+* http://jslint.com/help.html[JSLint]: Revisa sintaxis y realiza validaciones.
+* https://www.sonarqube.org/[SonarQube]: Realiza multiples validaciones (Buenas prácticas, seguridad, sintaxis, entre otros)
+* https://eslint.org/[ESLint]: Linter para JS & JSX
 
-== Herramientas de static analysis en JS
-
-
+== Conclusiones
+* Las herramientas de análisis estático de código aumentan la calidad del código.
+* Detecta diferentes tipos de problemas, como falta de convenciones o problemas de estructura.
+* No prueba que el programa sea correcto, solo agrega un par de ojos para detectar problemas.
 
 include::self.ad[]
